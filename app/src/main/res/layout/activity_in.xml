@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pradiptapa.si3905.com.pradiptapriyaadyatmika_1202154221_modul2.In">
+    <TextView
+        android:id="@+id/titleIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titleAll"
+        android:textAlignment="center"
+        android:textSize="40sp"/>
+    <EditText
+        android:id="@+id/nameIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_margin="20sp"
+        android:hint="Name"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="No. Table:"/>
+        <Spinner
+            android:id="@+id/noTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:entries="@array/noTable"
+            ></Spinner>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menuwa"
+        android:layout_margin="20sp"
+        />
+
+
+</LinearLayout>
